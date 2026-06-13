@@ -1,0 +1,13 @@
+# Daedalus CI — placeholder until Phase 2.
+# Phase 2 turns this into: build SITL binary (g++), run pytest suite.
+# Keeping a trivially-green workflow from day one so the badge, branch
+# protection, and the habit of CI-on-every-push exist before the code does.
+name: ci
+on: [push, pull_request]
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repo sanity check
+        run: test -f platformio.ini && test -f lib/hal/hal.h
