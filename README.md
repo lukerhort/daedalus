@@ -1,3 +1,5 @@
+[![ci](https://github.com/lukerhort/daedalus/actions/workflows/ci.yml/badge.svg)](https://github.com/lukerhort/daedalus/actions/workflows/ci.yml)
+
 # Daedalus
 
 Custom flight computer for a Level 1 high-power rocket, built together
